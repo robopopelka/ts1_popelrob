@@ -12,6 +12,11 @@ class PopelrobTest {
     }
 
     @Test
+    void myFactorialRek() {
+        assertEquals(120, Popelrob.myFactorialRek(5));
+    }
+
+    @Test
     void factorialIter() {
         assertEquals(120, Popelrob.factorialIter(5));
     }
